@@ -1,0 +1,45 @@
+html, body {
+	height:100%;
+}
+
+header h1 {
+	background-color: teal
+	font-size 28px
+	color: white
+	padding: 12px 24px;
+	display: inline-block;
+}
+
+header nav {
+	display: inline-block;
+
+}
+
+.content-wrap {
+	min-height: 100%;
+	width: 960px;
+	margin: 0 auto 0 auto;
+	background: gray;
+	border: 2px solid red;
+	border-top: none;
+	border-bottom: none;
+}
+
+main {
+	margin-bottom: 90px;
+	min-height: 100%;
+
+}
+
+footer {
+	padding: 20px;
+	position: fixed;
+  	width: 100%;
+  	bottom: 0;
+  	left: 0;
+  	height: 30px;
+  	bottom-margin: -30px;
+  	background: #222;
+  	color: white;
+  	text-align: center;
+}
