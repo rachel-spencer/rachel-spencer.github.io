@@ -1,45 +1,142 @@
-html, body {
+html {
 	height:100%;
+	width:960px;
+	background-color: #777;
+	margin: 0 auto 0 auto;
 }
 
-header h1 {
-	background-color: teal
-	font-size 28px
-	color: white
-	padding: 12px 24px;
-	display: inline-block;
+body {
+	width: 960px;
+	background-color: #777
 }
 
-header nav {
+header {
+	width: 960px;
+	text-align: center;
+	font-family: arial;
+	font-size: 10px;
 	display: inline-block;
+	color: #777;
+	padding-top: 32px;
+}
 
+
+nav {
+	width: 960px;
+	height: 100px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	margin-bottom:-12.5px;
+  	background: #ebebeb;
+  	font-family: arial;
+	font-size: 18px;
+	color: #777;
+  	
+}
+
+section {
+	display: inline-block;
+	width: 495px;
+	height: 300px;
+	margin: 0 auto 0 auto;
+	background: #ebebeb;
+  	font-family: arial;
+	font-size: 18px;
+	color: #777;
+  	text-align: center;
+
+}
+
+article {
+	background: #777;
+	width: 475px;
+    margin-left: 10px;
+    padding-bottom: 60px;
+
+}
+
+article h3 {
+	color: #ebebeb;
+	font-family: arial;
+	font-size: 18px;
+	padding-top: 15px;
+	font-weight: lighter;
+}
+
+
+article p {
+	color: #777;
+	font-family: arial;
+	padding-top: 15px;
+}
+
+
+h1 {
+	font-weight: 100;
+	font-size: 18px;
+
+}
+
+h4 {
+	margin: 0 auto 0 auto;
+	font-family: arial;
+    padding-top: 15px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 18px;
+	padding-top: 36px;
 }
 
 .content-wrap {
-	min-height: 100%;
 	width: 960px;
+	height: 100px;
 	margin: 0 auto 0 auto;
-	background: gray;
-	border: 2px solid red;
-	border-top: none;
-	border-bottom: none;
+	margin-bottom:-25px;
+	background: #ebebeb;
 }
 
-main {
-	margin-bottom: 90px;
-	min-height: 100%;
+#right {
+	float: right;
+	display:block;
+	height: 300px;
+	width: 450px;
+	margin: 0 auto 0 auto;
+	background: #ebebeb;
+	font-family: arial;
+	font-size: 18px;
+	color: #777;
+	text-align: center;
+
+}
+
+.small-div {
+	background: #ebebeb;
+	width: 90%;
+    margin: 0 auto 0 auto;
+    height: 50px;
+
+}
+
+.small-div2 {
+	background: #ebebeb;
+	width: 90%;
+    margin: 0 auto 0 auto;
+    height: 50px;
+}
+
+.clear {
 
 }
 
 footer {
-	padding: 20px;
-	position: fixed;
-  	width: 100%;
-  	bottom: 0;
-  	left: 0;
-  	height: 30px;
-  	bottom-margin: -30px;
-  	background: #222;
-  	color: white;
-  	text-align: center;
+	width: 960px;
+	height: 100px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+  	background: #ebebeb;
+  	font-family: arial;
+	font-size: 18px;
+	color: #777;
 }
